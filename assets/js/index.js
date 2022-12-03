@@ -1,4 +1,5 @@
-indexAfterLoad = function(){
+//after page load
+window.onload = function(){
 
     //set age
     let setAge = function(){
@@ -19,4 +20,3 @@ indexAfterLoad = function(){
     setAge()
 
 }
-indexAfterLoad()
