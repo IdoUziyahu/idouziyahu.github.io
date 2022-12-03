@@ -4,8 +4,7 @@ $pallete-2: #BCEAD5;
 $pallete-3: #9ED5C5;
 $pallete-4: #8EC3B0;
 
-
-
+//font: https://www.1001fonts.com/glacial-indifference-font.html
 @font-face {
     font-family: 'glacial-indifference';
     font-weight: normal;
@@ -16,6 +15,7 @@ $pallete-4: #8EC3B0;
     font-weight: bold;
     src: url('../fonts/glacial-indifference.bold.otf')
 }
+
 html {
     font-size: 10px;
     font-family: 'glacial-indifference';
