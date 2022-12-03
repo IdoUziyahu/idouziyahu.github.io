@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "glacial-indifference";
+  font-weight: normal;
+  src: url("../fonts/glacial-indifference.regular.otf");
+}
+@font-face {
+  font-family: "glacial-indifference";
+  font-weight: bold;
+  src: url("../fonts/glacial-indifference.bold.otf");
+}
+html {
+  font-size: 10px;
+  font-family: "glacial-indifference";
+}
+
+body .title {
+  font-size: 5rem;
+}
+body .text {
+  font-size: 3rem;
+}
+body .bold {
+  font-weight: bold;
+}
+body .underline {
+  text-decoration: #BCEAD5 underline;
+}
+
+#profileWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#profileWrapper img {
+  width: 20rem;
+  border-radius: 50%;
+  box-sizing: border-box;
+  outline: 0.5rem solid #AAA;
+}
+
+/*# sourceMappingURL=index.css.map */

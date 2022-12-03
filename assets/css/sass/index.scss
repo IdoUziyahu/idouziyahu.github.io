@@ -1,0 +1,51 @@
+// color pallete: https://colorhunt.co/palette/def5e5bcead59ed5c58ec3b0
+$pallete-1: #DEF5E5;
+$pallete-2: #BCEAD5;
+$pallete-3: #9ED5C5;
+$pallete-4: #8EC3B0;
+
+
+
+@font-face {
+    font-family: 'glacial-indifference';
+    font-weight: normal;
+    src: url('../fonts/glacial-indifference.regular.otf')
+}
+@font-face {
+    font-family: 'glacial-indifference';
+    font-weight: bold;
+    src: url('../fonts/glacial-indifference.bold.otf')
+}
+html {
+    font-size: 10px;
+    font-family: 'glacial-indifference';
+}
+body {
+
+    .title {
+        font-size: 5rem;
+    }
+    .text {
+        font-size: 3rem;
+    }
+    .bold {
+        font-weight: bold;
+    }
+
+    .underline{
+        text-decoration: $pallete-2 underline;
+    }
+}
+#profileWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 20rem;
+        border-radius: 50%;
+        box-sizing: border-box;
+        outline: .5rem solid #AAA;
+    }
+
+  }
